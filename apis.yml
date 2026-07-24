@@ -1,8 +1,26 @@
 aid: bluetalon-data-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluetalon-data-systems.png
 name: BlueTalon Data Systems
-description: BlueTalon Data Systems is a company surfaced as a portfolio company of bloomberg-beta and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: BlueTalon Data Systems was a data-centric security company that built dynamic, policy-based
+  access control, data masking, filtering, and auditing for enterprise data platforms such as Hadoop,
+  relational databases, and big-data stores. It let organizations enforce fine-grained authorization
+  and privacy controls at the point of data access. Founded around 2013 and headquartered in Redwood
+  City, California, BlueTalon was acquired by Microsoft in July 2019, after which its team and technology
+  were absorbed into Microsoft's data-governance and security efforts (Azure). BlueTalon no longer
+  operates as an independent company; the bluetalon.com domain is parked on Azure DNS with no active web,
+  developer, or API surface, so this network profile carries identity only and has no live artifacts to
+  enrich.
 url: https://raw.githubusercontent.com/api-evangelist/bluetalon-data-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,30 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: microsoft
+x-acquired-date: '2019-07'
+x-operating: false
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Data Security
+- Access Control
+- Data Governance
+- Data Masking
+- Authorization
+- Big Data
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
